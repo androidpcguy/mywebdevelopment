@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<title>My first webpage</title>
+
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+	</head>
+
+	<body>
+		<div>
+			<h1>This is a huge header</h1>
+			<h2>This one's a litle smaller</h2>
+
+			<p>My first paragraph!<br />More text here...</p>
+			
+			<hr />
+
+			<p>Another paragraph</p>
+			
+			<p><strong>This is a bold piece of text.</strong> This word will be in <em>italics</em> I want this word to be <u>underlined</u> <strike>This line is wrong</strike></p>
+
+
+
+			<h2>My favorite foods</h2>
+
+			<ul>
+				<li>Payasa</li>
+				<li>Pizza</li>
+				<li>other stuff</li>
+			</ul>
+			
+
+			<h2>Ordered list</h2>
+			<ol>
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+	
+			</ol>
+
+			<img src="images/coral_reef.jpg" width="200" />
+
+			<img src="http://vignette3.wikia.nocookie.net/startrek/images/b/bd/Ha'feh_Warbird.jpg/revision/latest?cb=20140526172727" />
+
+		</div>
+	</body>
+</html>
