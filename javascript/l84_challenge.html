@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Javascript Challenge 1</title>
+
+		<style>
+			#circle {
+				margin: 100px;
+				height: 500px;
+				width: 500px;
+				background-color: red;
+				border-radius: 250px;
+			}
+
+		</style>
+	</head>
+	<body>
+		
+		<p>What is the weather like?</p>
+		<input id="weather" type="text" />
+		<button id='submit'>Submit</button>
+	
+		<script>
+			document.getElementById('submit').onclick = function() {
+
+				var answer = document.getElementById('weather').value;
+				console.log(answer);
+				if(answer == 'rain') {
+
+					alert('Take an umbrella');
+
+				} else if(answer == 'sunny') {
+					alert('Wear some sunscreen');
+				}
+
+
+			}
+		</script>
+	
+	
+	
+	</body>
+
+
+
+</html>

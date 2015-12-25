@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Learning Javascript</title>
+
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+			
+	</head>
+	<body>
+
+		<button id="button">Click to change text!</button>
+
+		<div>
+			<p id="p1">Some dummy text</p>
+			<p id='p2'>Javascript is...</p>
+			<p id='p3'></p>
+		</div>
+
+		<button id='textappender'>Append some text</button>
+		<button id='addnewtext'>Add new text!</button>
+
+		<!--button 1 -->
+		<script type="text/javascript">
+			document.getElementById("button").onclick =  function() {
+				document.getElementById("p1").innerHTML = "This is the changed text!!!";
+			};
+		</script>
+
+		<!--button 2 -->
+		<script type="text/javascript">
+			document.getElementById("textappender").onclick =  function() {
+				document.getElementById("p2").innerHTML += "great!";
+			};
+		</script>
+		
+		<!--button 3 -->
+		<script type="text/javascript">
+			document.getElementById("addnewtext").onclick =  function() {
+				document.getElementById("p3").innerHTML += "<ul><li>Element1</li><li>Element2</li><li>Element3</li></ul>";
+			};
+		</script>
+	</body>
+</html>
